@@ -1,0 +1,406 @@
+.bg-light{
+    background-color: #878f98 !important;
+}
+
+ul.admincp_list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.admincp_list li{
+    margin: 10px 0;
+    padding: 10px;
+    float: left;
+}
+
+h3.title_admincp{
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+    background: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+.wrapper {
+    border: 1px solid #ececec;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+
+}
+/* Đặt font chữ mặc định cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Định dạng cho danh sách menu */
+.admincp_list {
+    list-style: none; /* Xóa dấu chấm mặc định của danh sách */
+    padding: 0;
+    margin: 0;
+}
+
+/* Định dạng cho mỗi mục trong menu */
+.admincp_item {
+    margin: 8px 0; /* Khoảng cách giữa các mục */
+    font-size: 14px;
+}
+
+/* Định dạng cho liên kết trong menu */
+.admincp_link {
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa; /* Màu nền sáng cho các liên kết */
+    color: #333; /* Màu chữ tối */
+    text-decoration: none; /* Xóa gạch dưới */
+    border-radius: 5px; /* Bo tròn các góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền khi hover */
+}
+
+/* Đổi màu nền khi hover vào liên kết */
+.admincp_link:hover {
+    background-color: #007bff; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+
+/* Định dạng cho mục đăng xuất, có thể thay đổi màu sắc */
+.admincp_item a {
+    font-weight: bold;
+    color: #d9534f; /* Màu đỏ cho liên kết đăng xuất */
+}
+
+.admincp_item a:hover {
+    background-color: #c9302c; /* Màu nền đỏ đậm khi hover */
+}
+/* Tiêu đề trang thêm sản phẩm */
+.page-title-add-product {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho bảng form thêm sản phẩm */
+.product-form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Định dạng các label trong form */
+.form-label {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    width: 15%;
+}
+
+/* Định dạng các ô nhập liệu và chọn */
+.form-input-field, .form-select-field, .form-textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Định dạng cho textarea */
+.form-textarea {
+    resize: vertical;
+
+}
+
+/* Định dạng cho nút submit */
+.submit-product-btn {
+    background-color: #007bff; /* Màu xanh dương */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-product-btn:hover {
+    background-color: #0056b3; /* Màu xanh đậm khi hover */
+}
+
+/* Định dạng cho các hàng trong bảng */
+.product-form-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.product-form-table tr:last-child {
+    border-bottom: none;
+}
+/* Định dạng cho phần .clear để xóa bỏ các float */
+.clear {
+    clear: both;
+}
+/* Định dạng cho phần .main */
+.main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Định dạng cho các nội dung trong các trang quản lý */
+.main h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho các đường dẫn khi có action và query */
+.main .action-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.main .action-link:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng cho phần bảng khi hiển thị các sản phẩm, đơn hàng, danh mục */
+.main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.main table th, .main table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.main table th {
+    background-color: #f4f4f4;
+}
+
+/* Định dạng cho các nút trong các form */
+.main .submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main .submit-btn:hover {
+    background-color: #218838;
+}
+
+/* Thêm khoảng cách cho các phần tử trong form */
+.main form {
+    margin-bottom: 20px;
+}
+
+/* Các class cho các trang quản lý sản phẩm, danh mục... */
+.main .management-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main .management-link:hover {
+    background-color: #0056b3;
+}
+/* Định dạng cho tiêu đề trang */
+.page-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Định dạng cho bảng */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Định dạng căn giữa cho các ô */
+.center {
+    text-align: center;
+}
+
+/* Định dạng cho các đường dẫn (links) trong ô Quản lý */
+.data-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.data-table a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng cho các link khi xóa */
+.data-table a[onclick] {
+    color: #dc3545;
+}
+.td_them {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.cke_notification {
+    display: none !important;
+}
+ /* thay dổi mật khẩu  */
+
+/* Định dạng chung cho form */
+.change-password-form {
+    width: 100%;
+    max-width: 400px; /* Giới hạn chiều rộng form */
+    margin: 50px auto; /* Căn giữa form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Tiêu đề của form */
+.change-password-form h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Định dạng từng nhóm trong form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Định dạng nhãn (label) */
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Định dạng ô nhập liệu */
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Hiệu ứng khi focus vào ô nhập liệu */
+.form-group input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Định dạng nút bấm */
+.change-password-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Màu xanh dương */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng hover cho nút bấm */
+.change-password-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Màu xanh đậm hơn */
+}
+
+/* Thêm khoảng cách giữa các phần tử */
+.change-password-form input, 
+.change-password-form button {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Định dạng cho Footer */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f4f4f4; /* Màu nền của footer */
+    color: #333; /* Màu chữ */
+    font-size: 16px;
+}
+
+.footer .italic {
+    font-style: italic;
+}

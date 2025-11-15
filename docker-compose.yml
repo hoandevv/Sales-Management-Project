@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  php-apache:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: php_apache_server
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=rootpassword
+      - MYSQL_DATABASE=web1
+      - MYSQL_PORT=3306
+    networks:
+      - phpnet
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_php_app
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: web1
+      MYSQL_TCP_PORT: 3306
+      MYSQL_INITDB_SKIP_TZINFO: 1
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docker/mysql/initdb.d/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+    command: >
+      --default-authentication-plugin=mysql_native_password
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --skip-character-set-client-handshake
+    cap_add:
+      - SYS_NICE  # CAP_SYS_NICE
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - phpnet
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_php_app
+    depends_on:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: rootpassword
+    ports:
+      - "8081:80"
+    networks:
+      - phpnet
+
+volumes:
+  mysql_data:
+
+networks:
+  phpnet:

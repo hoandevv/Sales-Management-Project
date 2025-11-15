@@ -1,0 +1,2812 @@
+2025-11-15 20:47:07 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-343e071571fsm12572797a91.7 - gsmtp
+
+2025-11-15 20:47:07 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:47:07 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:47:07 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:47:08 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:47:08 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:47:08 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:47:08 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:47:08 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:47:08 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:47:08 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:47:08 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:47:09 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:47:09 - SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-343e071571fsm12572797a91.7 - gsmtp
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: RCPT TO:<test@example.com>
+
+2025-11-15 20:47:09 - SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-343e071571fsm12572797a91.7 - gsmtp
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:47:09 - SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-343e071571fsm12572797a91.7 - gsmtp
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:47:06 +0700
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: To: Test User <test@example.com>
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Message-ID: <21WtnJydlZYNvOZF3Ull8r4SfQZ1CO6gADndyv53aRk@localhost>
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:47:09 - CLIENT -> SERVER:  boundary="b1=_21WtnJydlZYNvOZF3Ull8r4SfQZ1CO6gADndyv53aRk"
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: --b1=_21WtnJydlZYNvOZF3Ull8r4SfQZ1CO6gADndyv53aRk
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:09 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:09 - CLIENT -> SERVER:             
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 Xin chào Test User,
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 422974
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:             
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:         
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: --b1=_21WtnJydlZYNvOZF3Ull8r4SfQZ1CO6gADndyv53aRk
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 <p>Xin chào Test User,</p>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>422974</strong></p>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:47:10 - CLIENT -> SERVER:         
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: --b1=_21WtnJydlZYNvOZF3Ull8r4SfQZ1CO6gADndyv53aRk--
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: 
+
+2025-11-15 20:47:10 - CLIENT -> SERVER: .
+
+2025-11-15 20:47:11 - SERVER -> CLIENT: 250 2.0.0 OK  1763214433 98e67ed59e1d1-343e071571fsm12572797a91.7 - gsmtp
+
+2025-11-15 20:47:11 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:47:11 - SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-343e071571fsm12572797a91.7 - gsmtp
+
+2025-11-15 20:48:03 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7b924be37fbsm8293330b3a.1 - gsmtp
+
+2025-11-15 20:48:03 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:48:03 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:48:03 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:48:03 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:48:03 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:48:03 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:48:03 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:48:03 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:48:03 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:48:04 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:48:04 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:48:04 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:48:04 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:04 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7b924be37fbsm8293330b3a.1 - gsmtp
+
+2025-11-15 20:48:04 - CLIENT -> SERVER: RCPT TO:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:04 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7b924be37fbsm8293330b3a.1 - gsmtp
+
+2025-11-15 20:48:04 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:48:05 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7b924be37fbsm8293330b3a.1 - gsmtp
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:48:02 +0700
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: To: =?UTF-8?B?bmd1eeG7hW4gdsSDbiB0aHXhuq1u?= <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Message-ID: <CM57zL5anlRSTQmunqAfMjavElJn86dJq9KkRIos4@localhost>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:  boundary="b1=_CM57zL5anlRSTQmunqAfMjavElJn86dJq9KkRIos4"
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: --b1=_CM57zL5anlRSTQmunqAfMjavElJn86dJq9KkRIos4
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:             
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 Xin chào nguyễn văn thuận,
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 405475
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:             
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:         
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: --b1=_CM57zL5anlRSTQmunqAfMjavElJn86dJq9KkRIos4
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 <p>Xin chào nguyễn văn thuận,</p>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>405475</strong></p>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:48:05 - CLIENT -> SERVER:         
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: --b1=_CM57zL5anlRSTQmunqAfMjavElJn86dJq9KkRIos4--
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:05 - CLIENT -> SERVER: .
+
+2025-11-15 20:48:06 - SERVER -> CLIENT: 250 2.0.0 OK  1763214488 d2e1a72fcca58-7b924be37fbsm8293330b3a.1 - gsmtp
+
+2025-11-15 20:48:06 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:48:06 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7b924be37fbsm8293330b3a.1 - gsmtp
+
+2025-11-15 20:48:55 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2985c24a5fdsm87483785ad.43 - gsmtp
+
+2025-11-15 20:48:55 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:48:55 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:48:55 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:48:56 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:48:56 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:48:56 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:48:56 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:48:56 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:48:56 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:48:56 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:48:56 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:48:56 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:48:56 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:57 - SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2985c24a5fdsm87483785ad.43 - gsmtp
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: RCPT TO:<test2@example.com>
+
+2025-11-15 20:48:57 - SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2985c24a5fdsm87483785ad.43 - gsmtp
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:48:57 - SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2985c24a5fdsm87483785ad.43 - gsmtp
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:48:55 +0700
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: To: Test User 2 <test2@example.com>
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Message-ID: <Bdsx4ZTUvYvbpRejvoytvhLth0b3K6qhudfLPWTMqo@localhost>
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:  boundary="b1=_Bdsx4ZTUvYvbpRejvoytvhLth0b3K6qhudfLPWTMqo"
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: --b1=_Bdsx4ZTUvYvbpRejvoytvhLth0b3K6qhudfLPWTMqo
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:57 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:             
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:                 Xin chào Test User 2,
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 782261
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:48:57 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:             
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:         
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: --b1=_Bdsx4ZTUvYvbpRejvoytvhLth0b3K6qhudfLPWTMqo
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 <p>Xin chào Test User 2,</p>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>782261</strong></p>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:48:58 - CLIENT -> SERVER:         
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: --b1=_Bdsx4ZTUvYvbpRejvoytvhLth0b3K6qhudfLPWTMqo--
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: 
+
+2025-11-15 20:48:58 - CLIENT -> SERVER: .
+
+2025-11-15 20:48:59 - SERVER -> CLIENT: 250 2.0.0 OK  1763214541 d9443c01a7336-2985c24a5fdsm87483785ad.43 - gsmtp
+
+2025-11-15 20:48:59 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:48:59 - SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2985c24a5fdsm87483785ad.43 - gsmtp
+
+2025-11-15 20:51:25 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7b9250d2ceasm8256379b3a.20 - gsmtp
+
+2025-11-15 20:51:25 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:51:25 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:51:25 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:51:26 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:51:26 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:51:26 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:51:26 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:51:26 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:51:26 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:51:26 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:51:26 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:51:27 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:51:27 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7b9250d2ceasm8256379b3a.20 - gsmtp
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: RCPT TO:<dohoan25112005@gmail.com>
+
+2025-11-15 20:51:27 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7b9250d2ceasm8256379b3a.20 - gsmtp
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:51:27 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7b9250d2ceasm8256379b3a.20 - gsmtp
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:51:25 +0700
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: To: do hoan <dohoan25112005@gmail.com>
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: Message-ID: <2yd7PO0Xly1qoGXldThtMdGkVlx6WdVgcQxp8kA6Q@localhost>
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:51:27 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:51:27 - CLIENT -> SERVER:  boundary="b1=_2yd7PO0Xly1qoGXldThtMdGkVlx6WdVgcQxp8kA6Q"
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: --b1=_2yd7PO0Xly1qoGXldThtMdGkVlx6WdVgcQxp8kA6Q
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:             
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 852838
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:             
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:         
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: --b1=_2yd7PO0Xly1qoGXldThtMdGkVlx6WdVgcQxp8kA6Q
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>852838</strong></p>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:51:28 - CLIENT -> SERVER:         
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: --b1=_2yd7PO0Xly1qoGXldThtMdGkVlx6WdVgcQxp8kA6Q--
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: 
+
+2025-11-15 20:51:28 - CLIENT -> SERVER: .
+
+2025-11-15 20:51:29 - SERVER -> CLIENT: 250 2.0.0 OK  1763214691 d2e1a72fcca58-7b9250d2ceasm8256379b3a.20 - gsmtp
+
+2025-11-15 20:51:29 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:51:29 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7b9250d2ceasm8256379b3a.20 - gsmtp
+
+2025-11-15 20:52:39 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7ba611682cfsm5224034b3a.26 - gsmtp
+
+2025-11-15 20:52:39 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:52:39 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:52:39 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:52:39 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:52:40 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:52:40 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:52:40 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:52:40 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:52:40 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:52:40 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:52:40 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:52:40 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:52:40 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:52:41 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7ba611682cfsm5224034b3a.26 - gsmtp
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: RCPT TO:<test4@example.com>
+
+2025-11-15 20:52:41 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7ba611682cfsm5224034b3a.26 - gsmtp
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:52:41 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7ba611682cfsm5224034b3a.26 - gsmtp
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:52:38 +0700
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: To: Test User 4 <test4@example.com>
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Message-ID: <dV6i33KVXtAUrlbjoWI5Iun4DMwiIwakeSYt1hRFD2U@localhost>
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:  boundary="b1=_dV6i33KVXtAUrlbjoWI5Iun4DMwiIwakeSYt1hRFD2U"
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: --b1=_dV6i33KVXtAUrlbjoWI5Iun4DMwiIwakeSYt1hRFD2U
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:             
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 Xin chào Test User 4,
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 970393
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:             
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:         
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: --b1=_dV6i33KVXtAUrlbjoWI5Iun4DMwiIwakeSYt1hRFD2U
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:41 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:52:41 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:                 <p>Xin chào Test User 4,</p>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>970393</strong></p>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:52:42 - CLIENT -> SERVER:         
+
+2025-11-15 20:52:42 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:42 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:42 - CLIENT -> SERVER: --b1=_dV6i33KVXtAUrlbjoWI5Iun4DMwiIwakeSYt1hRFD2U--
+
+2025-11-15 20:52:42 - CLIENT -> SERVER: 
+
+2025-11-15 20:52:42 - CLIENT -> SERVER: .
+
+2025-11-15 20:52:42 - SERVER -> CLIENT: 250 2.0.0 OK  1763214765 d2e1a72fcca58-7ba611682cfsm5224034b3a.26 - gsmtp
+
+2025-11-15 20:52:42 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:52:43 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7ba611682cfsm5224034b3a.26 - gsmtp
+
+2025-11-15 20:53:34 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-bc375178a7esm7376110a12.18 - gsmtp
+
+2025-11-15 20:53:34 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:53:34 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:53:34 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:53:34 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:53:34 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:53:34 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:53:34 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:53:34 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:53:34 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:53:34 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:53:34 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:53:35 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:53:35 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:53:35 - SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-bc375178a7esm7376110a12.18 - gsmtp
+
+2025-11-15 20:53:35 - CLIENT -> SERVER: RCPT TO:<test5@example.com>
+
+2025-11-15 20:53:35 - SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-bc375178a7esm7376110a12.18 - gsmtp
+
+2025-11-15 20:53:35 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:53:36 - SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-bc375178a7esm7376110a12.18 - gsmtp
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:53:33 +0700
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: To: Test User 5 <test5@example.com>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Message-ID: <PIQc1Rolms0m7SvhXyEnzlQ1Bkun9mB44ZKczVpPR1M@localhost>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:  boundary="b1=_PIQc1Rolms0m7SvhXyEnzlQ1Bkun9mB44ZKczVpPR1M"
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: --b1=_PIQc1Rolms0m7SvhXyEnzlQ1Bkun9mB44ZKczVpPR1M
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:             
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 Xin chào Test User 5,
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 234830
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:             
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:         
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: --b1=_PIQc1Rolms0m7SvhXyEnzlQ1Bkun9mB44ZKczVpPR1M
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 <p>Xin chào Test User 5,</p>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>234830</strong></p>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:53:36 - CLIENT -> SERVER:         
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: --b1=_PIQc1Rolms0m7SvhXyEnzlQ1Bkun9mB44ZKczVpPR1M--
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: 
+
+2025-11-15 20:53:36 - CLIENT -> SERVER: .
+
+2025-11-15 20:53:37 - SERVER -> CLIENT: 250 2.0.0 OK  1763214819 41be03b00d2f7-bc375178a7esm7376110a12.18 - gsmtp
+
+2025-11-15 20:53:37 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:53:37 - SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-bc375178a7esm7376110a12.18 - gsmtp
+
+2025-11-15 20:56:21 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7b9250d2d16sm8196144b3a.22 - gsmtp
+
+2025-11-15 20:56:21 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:56:21 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:56:21 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:56:21 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:56:21 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:56:22 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:56:22 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:56:22 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:56:22 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:56:22 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:56:22 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:56:22 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:56:22 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:56:22 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7b9250d2d16sm8196144b3a.22 - gsmtp
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: RCPT TO:<dohoan25112004@gmail.com>
+
+2025-11-15 20:56:23 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7b9250d2d16sm8196144b3a.22 - gsmtp
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:56:23 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7b9250d2d16sm8196144b3a.22 - gsmtp
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:56:21 +0700
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: To: do hoan <dohoan25112004@gmail.com>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Message-ID: <0clXp03EGqDiI5SGXRJWyVIiyBbKexhrFf6VnQ49hmI@localhost>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:  boundary="b1=_0clXp03EGqDiI5SGXRJWyVIiyBbKexhrFf6VnQ49hmI"
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: --b1=_0clXp03EGqDiI5SGXRJWyVIiyBbKexhrFf6VnQ49hmI
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:             
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 358164
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:             
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:         
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: --b1=_0clXp03EGqDiI5SGXRJWyVIiyBbKexhrFf6VnQ49hmI
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>358164</strong></p>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:56:23 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:56:24 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:56:24 - CLIENT -> SERVER:         
+
+2025-11-15 20:56:24 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:24 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:24 - CLIENT -> SERVER: --b1=_0clXp03EGqDiI5SGXRJWyVIiyBbKexhrFf6VnQ49hmI--
+
+2025-11-15 20:56:24 - CLIENT -> SERVER: 
+
+2025-11-15 20:56:24 - CLIENT -> SERVER: .
+
+2025-11-15 20:56:24 - SERVER -> CLIENT: 250 2.0.0 OK  1763214986 d2e1a72fcca58-7b9250d2d16sm8196144b3a.22 - gsmtp
+
+2025-11-15 20:56:24 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:56:24 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7b9250d2d16sm8196144b3a.22 - gsmtp
+
+2025-11-15 20:59:20 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2985c2346c3sm87546075ad.4 - gsmtp
+
+2025-11-15 20:59:20 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:59:20 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:59:20 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 20:59:20 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 20:59:21 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 20:59:21 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 20:59:21 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 20:59:21 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 20:59:21 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:59:21 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 20:59:21 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 20:59:21 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 20:59:21 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:59:22 - SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2985c2346c3sm87546075ad.4 - gsmtp
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: RCPT TO:<test6@example.com>
+
+2025-11-15 20:59:22 - SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2985c2346c3sm87546075ad.4 - gsmtp
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: DATA
+
+2025-11-15 20:59:22 - SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2985c2346c3sm87546075ad.4 - gsmtp
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 20:59:20 +0700
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: To: Test User 6 <test6@example.com>
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Message-ID: <VgzSmy0JqRpwW3HawjANB5ZHXoknKIGMoinnZpg9U@localhost>
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:  boundary="b1=_VgzSmy0JqRpwW3HawjANB5ZHXoknKIGMoinnZpg9U"
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: --b1=_VgzSmy0JqRpwW3HawjANB5ZHXoknKIGMoinnZpg9U
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:22 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:             
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:                 Xin chào Test User 6,
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 314316
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 20:59:22 - CLIENT -> SERVER:             
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:         
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: --b1=_VgzSmy0JqRpwW3HawjANB5ZHXoknKIGMoinnZpg9U
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:                 <p>Xin chào Test User 6,</p>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>314316</strong></p>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:             </div>
+
+2025-11-15 20:59:23 - CLIENT -> SERVER:         
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: --b1=_VgzSmy0JqRpwW3HawjANB5ZHXoknKIGMoinnZpg9U--
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: 
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: .
+
+2025-11-15 20:59:23 - SERVER -> CLIENT: 250 2.0.0 OK  1763215166 d9443c01a7336-2985c2346c3sm87546075ad.4 - gsmtp
+
+2025-11-15 20:59:23 - CLIENT -> SERVER: QUIT
+
+2025-11-15 20:59:24 - SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2985c2346c3sm87546075ad.4 - gsmtp
+
+2025-11-15 21:01:10 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2985c245da0sm86887235ad.26 - gsmtp
+
+2025-11-15 21:01:10 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:01:11 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:01:11 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:01:11 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:01:11 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:01:11 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:01:11 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:01:11 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:01:11 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:01:11 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:01:11 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:01:12 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:01:12 - SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2985c245da0sm86887235ad.26 - gsmtp
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: RCPT TO:<dohoanblue2511@gmail.com>
+
+2025-11-15 21:01:12 - SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2985c245da0sm86887235ad.26 - gsmtp
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:01:12 - SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2985c245da0sm86887235ad.26 - gsmtp
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:01:09 +0700
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: To: =?UTF-8?B?xJDhu5cgVsSDbiBEdXk=?= <dohoanblue2511@gmail.com>
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:01:12 - CLIENT -> SERVER: Message-ID: <bJ0UIeipC4ikwKV6ffZgikWlAvWvJEjjSw1ioGhaM0@localhost>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:  boundary="b1=_bJ0UIeipC4ikwKV6ffZgikWlAvWvJEjjSw1ioGhaM0"
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: --b1=_bJ0UIeipC4ikwKV6ffZgikWlAvWvJEjjSw1ioGhaM0
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:             
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 Xin chào Đỗ Văn Duy,
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 906596
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:             
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:         
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: --b1=_bJ0UIeipC4ikwKV6ffZgikWlAvWvJEjjSw1ioGhaM0
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 <p>Xin chào Đỗ Văn Duy,</p>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>906596</strong></p>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:01:13 - CLIENT -> SERVER:         
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: --b1=_bJ0UIeipC4ikwKV6ffZgikWlAvWvJEjjSw1ioGhaM0--
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:01:13 - CLIENT -> SERVER: .
+
+2025-11-15 21:01:14 - SERVER -> CLIENT: 250 2.0.0 OK  1763215276 d9443c01a7336-2985c245da0sm86887235ad.26 - gsmtp
+
+2025-11-15 21:01:14 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:01:14 - SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2985c245da0sm86887235ad.26 - gsmtp
+
+2025-11-15 21:05:29 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-29864b00fc9sm63174315ad.40 - gsmtp
+
+2025-11-15 21:05:29 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:05:29 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:05:29 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:05:29 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:05:29 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:05:30 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:05:30 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:05:30 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:05:30 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:05:30 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:05:30 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:05:30 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:05:30 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:30 - SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-29864b00fc9sm63174315ad.40 - gsmtp
+
+2025-11-15 21:05:30 - CLIENT -> SERVER: RCPT TO:<dohoanblue2511@gmail.com>
+
+2025-11-15 21:05:31 - SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-29864b00fc9sm63174315ad.40 - gsmtp
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:05:31 - SERVER -> CLIENT: 354 Go ahead d9443c01a7336-29864b00fc9sm63174315ad.40 - gsmtp
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:05:28 +0700
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: To: =?UTF-8?B?xJDhu5cgVsSDbiBEdXk=?= <dohoanblue2511@gmail.com>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Message-ID: <NbINEabtrnE3O6g1zXMCMJ6h4AbCyDGMnIGzvIed4@localhost>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:  boundary="b1=_NbINEabtrnE3O6g1zXMCMJ6h4AbCyDGMnIGzvIed4"
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: --b1=_NbINEabtrnE3O6g1zXMCMJ6h4AbCyDGMnIGzvIed4
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:             
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 Xin chào Đỗ Văn Duy,
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 342362
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:             
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:         
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: --b1=_NbINEabtrnE3O6g1zXMCMJ6h4AbCyDGMnIGzvIed4
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 <p>Xin chào Đỗ Văn Duy,</p>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>342362</strong></p>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:05:31 - CLIENT -> SERVER:         
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: --b1=_NbINEabtrnE3O6g1zXMCMJ6h4AbCyDGMnIGzvIed4--
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:31 - CLIENT -> SERVER: .
+
+2025-11-15 21:05:32 - SERVER -> CLIENT: 250 2.0.0 OK  1763215534 d9443c01a7336-29864b00fc9sm63174315ad.40 - gsmtp
+
+2025-11-15 21:05:32 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:05:32 - SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-29864b00fc9sm63174315ad.40 - gsmtp
+
+2025-11-15 21:05:53 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-bc375177be4sm7554260a12.19 - gsmtp
+
+2025-11-15 21:05:53 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:05:53 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:05:53 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:05:54 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:05:54 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:05:54 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:05:54 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:05:54 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:05:54 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:05:54 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:05:54 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:05:55 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:55 - SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-bc375177be4sm7554260a12.19 - gsmtp
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: RCPT TO:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:55 - SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-bc375177be4sm7554260a12.19 - gsmtp
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:05:55 - SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-bc375177be4sm7554260a12.19 - gsmtp
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:05:52 +0700
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: To: do hoan <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Message-ID: <eeLhn7LSEUDjLrBASb6vV4rKKLhuOmgZ0T6CvdukZ8@localhost>
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:05:55 - CLIENT -> SERVER:  boundary="b1=_eeLhn7LSEUDjLrBASb6vV4rKKLhuOmgZ0T6CvdukZ8"
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: --b1=_eeLhn7LSEUDjLrBASb6vV4rKKLhuOmgZ0T6CvdukZ8
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:55 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:55 - CLIENT -> SERVER:             
+
+2025-11-15 21:05:55 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:05:55 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 844315
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:             
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:         
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: --b1=_eeLhn7LSEUDjLrBASb6vV4rKKLhuOmgZ0T6CvdukZ8
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>844315</strong></p>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:05:56 - CLIENT -> SERVER:         
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: --b1=_eeLhn7LSEUDjLrBASb6vV4rKKLhuOmgZ0T6CvdukZ8--
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: 
+
+2025-11-15 21:05:56 - CLIENT -> SERVER: .
+
+2025-11-15 21:05:58 - SERVER -> CLIENT: 250 2.0.0 OK  1763215560 41be03b00d2f7-bc375177be4sm7554260a12.19 - gsmtp
+
+2025-11-15 21:05:58 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:05:58 - SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-bc375177be4sm7554260a12.19 - gsmtp
+
+2025-11-15 21:07:34 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-3456511fa6fsm3928466a91.1 - gsmtp
+
+2025-11-15 21:07:34 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:07:34 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:07:34 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:07:34 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:07:34 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:07:34 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:07:34 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:07:35 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:07:35 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:07:35 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:07:35 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:07:35 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:07:35 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:07:35 - SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-3456511fa6fsm3928466a91.1 - gsmtp
+
+2025-11-15 21:07:35 - CLIENT -> SERVER: RCPT TO:<dohoan25112005@gmail.com>
+
+2025-11-15 21:07:36 - SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-3456511fa6fsm3928466a91.1 - gsmtp
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:07:36 - SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-3456511fa6fsm3928466a91.1 - gsmtp
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:07:33 +0700
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: To: hoan2511 <dohoan25112005@gmail.com>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Message-ID: <bLEKpAqdcf3PABHOpvjIi49gEC3zbBHKWjGgJ0COB4@localhost>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:  boundary="b1=_bLEKpAqdcf3PABHOpvjIi49gEC3zbBHKWjGgJ0COB4"
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: --b1=_bLEKpAqdcf3PABHOpvjIi49gEC3zbBHKWjGgJ0COB4
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:             
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 Xin chào hoan2511,
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 067253
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:             
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:         
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: --b1=_bLEKpAqdcf3PABHOpvjIi49gEC3zbBHKWjGgJ0COB4
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 <p>Xin chào hoan2511,</p>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>067253</strong></p>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:07:36 - CLIENT -> SERVER:         
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: --b1=_bLEKpAqdcf3PABHOpvjIi49gEC3zbBHKWjGgJ0COB4--
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: 
+
+2025-11-15 21:07:36 - CLIENT -> SERVER: .
+
+2025-11-15 21:07:38 - SERVER -> CLIENT: 250 2.0.0 OK  1763215660 98e67ed59e1d1-3456511fa6fsm3928466a91.1 - gsmtp
+
+2025-11-15 21:07:38 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:07:38 - SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-3456511fa6fsm3928466a91.1 - gsmtp
+
+2025-11-15 21:10:47 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-bc36db22439sm7831973a12.4 - gsmtp
+
+2025-11-15 21:10:47 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:10:48 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:10:48 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:10:48 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:10:48 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:10:48 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:10:48 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:10:48 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:10:48 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:10:48 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:10:48 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:10:49 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:10:49 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:10:49 - SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-bc36db22439sm7831973a12.4 - gsmtp
+
+2025-11-15 21:10:49 - CLIENT -> SERVER: RCPT TO:<dohoan25112004@gmail.com>
+
+2025-11-15 21:10:49 - SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-bc36db22439sm7831973a12.4 - gsmtp
+
+2025-11-15 21:10:49 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:10:49 - SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-bc36db22439sm7831973a12.4 - gsmtp
+
+2025-11-15 21:10:49 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:10:47 +0700
+
+2025-11-15 21:10:49 - CLIENT -> SERVER: To: do hoan <dohoan25112004@gmail.com>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Message-ID: <Xxky6Ek2SM6xYMReZDMGn8gezoJ2Edtel2lHsLSW4g@localhost>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:  boundary="b1=_Xxky6Ek2SM6xYMReZDMGn8gezoJ2Edtel2lHsLSW4g"
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: --b1=_Xxky6Ek2SM6xYMReZDMGn8gezoJ2Edtel2lHsLSW4g
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:             
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 365336
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:             
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:         
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: --b1=_Xxky6Ek2SM6xYMReZDMGn8gezoJ2Edtel2lHsLSW4g
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>365336</strong></p>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:10:50 - CLIENT -> SERVER:         
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: --b1=_Xxky6Ek2SM6xYMReZDMGn8gezoJ2Edtel2lHsLSW4g--
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: 
+
+2025-11-15 21:10:50 - CLIENT -> SERVER: .
+
+2025-11-15 21:10:51 - SERVER -> CLIENT: 250 2.0.0 OK  1763215853 41be03b00d2f7-bc36db22439sm7831973a12.4 - gsmtp
+
+2025-11-15 21:10:51 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:10:51 - SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-bc36db22439sm7831973a12.4 - gsmtp
+
+2025-11-15 21:14:14 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7b927c22b1bsm8138535b3a.66 - gsmtp
+
+2025-11-15 21:14:14 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:14:14 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:14:14 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:14:15 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:14:15 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:14:15 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:14:15 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:14:15 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:14:15 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:14:15 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:14:15 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:14:15 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:14:15 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:14:16 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7b927c22b1bsm8138535b3a.66 - gsmtp
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: RCPT TO:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:14:16 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7b927c22b1bsm8138535b3a.66 - gsmtp
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:14:16 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7b927c22b1bsm8138535b3a.66 - gsmtp
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:14:13 +0700
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: To: do hoan <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Message-ID: <OkflLaXRuAbyU9xUqYeJew2QBBIWpuu7TTO06FxoM@localhost>
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:  boundary="b1=_OkflLaXRuAbyU9xUqYeJew2QBBIWpuu7TTO06FxoM"
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: --b1=_OkflLaXRuAbyU9xUqYeJew2QBBIWpuu7TTO06FxoM
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:             
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 306610
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:             
+
+2025-11-15 21:14:16 - CLIENT -> SERVER:         
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: --b1=_OkflLaXRuAbyU9xUqYeJew2QBBIWpuu7TTO06FxoM
+
+2025-11-15 21:14:16 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>306610</strong></p>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:14:17 - CLIENT -> SERVER:         
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: --b1=_OkflLaXRuAbyU9xUqYeJew2QBBIWpuu7TTO06FxoM--
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: 
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: .
+
+2025-11-15 21:14:17 - SERVER -> CLIENT: 250 2.0.0 OK  1763216060 d2e1a72fcca58-7b927c22b1bsm8138535b3a.66 - gsmtp
+
+2025-11-15 21:14:17 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:14:18 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7b927c22b1bsm8138535b3a.66 - gsmtp
+
+2025-11-15 21:25:06 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7b924aea0f8sm8347598b3a.5 - gsmtp
+
+2025-11-15 21:25:06 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:25:06 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:25:06 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:25:06 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:25:06 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:25:06 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:25:06 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:25:07 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:25:07 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:25:07 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:25:07 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:25:07 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:25:07 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:25:07 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7b924aea0f8sm8347598b3a.5 - gsmtp
+
+2025-11-15 21:25:07 - CLIENT -> SERVER: RCPT TO:<dohoan25112004@gmail.com>
+
+2025-11-15 21:25:07 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7b924aea0f8sm8347598b3a.5 - gsmtp
+
+2025-11-15 21:25:07 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:25:08 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7b924aea0f8sm8347598b3a.5 - gsmtp
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:25:05 +0700
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: To: hoan2511 <dohoan25112004@gmail.com>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Message-ID: <WYgLcGRIK1kzYCgfOaHAEdEJqiqxnI2z7jBL6eg0@localhost>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:  boundary="b1=_WYgLcGRIK1kzYCgfOaHAEdEJqiqxnI2z7jBL6eg0"
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: --b1=_WYgLcGRIK1kzYCgfOaHAEdEJqiqxnI2z7jBL6eg0
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:             
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 Xin chào hoan2511,
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 072626
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:             
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:         
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: --b1=_WYgLcGRIK1kzYCgfOaHAEdEJqiqxnI2z7jBL6eg0
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 <p>Xin chào hoan2511,</p>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>072626</strong></p>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:25:08 - CLIENT -> SERVER:         
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: --b1=_WYgLcGRIK1kzYCgfOaHAEdEJqiqxnI2z7jBL6eg0--
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: 
+
+2025-11-15 21:25:08 - CLIENT -> SERVER: .
+
+2025-11-15 21:25:09 - SERVER -> CLIENT: 250 2.0.0 OK  1763216711 d2e1a72fcca58-7b924aea0f8sm8347598b3a.5 - gsmtp
+
+2025-11-15 21:25:09 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:25:09 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7b924aea0f8sm8347598b3a.5 - gsmtp
+
+2025-11-15 21:30:11 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7b927731a72sm8209919b3a.50 - gsmtp
+
+2025-11-15 21:30:11 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:30:11 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:30:11 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:30:11 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:30:11 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:30:11 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:30:11 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:30:12 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:30:12 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:30:12 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:30:12 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:30:12 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:30:12 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:30:12 - SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7b927731a72sm8209919b3a.50 - gsmtp
+
+2025-11-15 21:30:12 - CLIENT -> SERVER: RCPT TO:<dohoanblue2511@gmail.com>
+
+2025-11-15 21:30:12 - SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7b927731a72sm8209919b3a.50 - gsmtp
+
+2025-11-15 21:30:12 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:30:13 - SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7b927731a72sm8209919b3a.50 - gsmtp
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:30:10 +0700
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: To: hoan2511 <dohoanblue2511@gmail.com>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Message-ID: <lsOur1Uy0Qk6je4VumJhPprFN8r7RiJEHbCz3u3YY@localhost>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:  boundary="b1=_lsOur1Uy0Qk6je4VumJhPprFN8r7RiJEHbCz3u3YY"
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: --b1=_lsOur1Uy0Qk6je4VumJhPprFN8r7RiJEHbCz3u3YY
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:             
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 Xin chào hoan2511,
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 491190
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:             
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:         
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: --b1=_lsOur1Uy0Qk6je4VumJhPprFN8r7RiJEHbCz3u3YY
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 <p>Xin chào hoan2511,</p>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>491190</strong></p>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:30:13 - CLIENT -> SERVER:         
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: --b1=_lsOur1Uy0Qk6je4VumJhPprFN8r7RiJEHbCz3u3YY--
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: 
+
+2025-11-15 21:30:13 - CLIENT -> SERVER: .
+
+2025-11-15 21:30:14 - SERVER -> CLIENT: 250 2.0.0 OK  1763217016 d2e1a72fcca58-7b927731a72sm8209919b3a.50 - gsmtp
+
+2025-11-15 21:30:14 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:30:14 - SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7b927731a72sm8209919b3a.50 - gsmtp
+
+2025-11-15 21:37:22 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-bc36e8a58cfsm7510652a12.10 - gsmtp
+
+2025-11-15 21:37:22 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:37:22 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:37:22 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 21:37:22 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 21:37:22 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 21:37:23 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 21:37:23 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 21:37:23 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 21:37:23 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:37:23 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 21:37:23 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 21:37:23 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 21:37:23 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:37:23 - SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-bc36e8a58cfsm7510652a12.10 - gsmtp
+
+2025-11-15 21:37:23 - CLIENT -> SERVER: RCPT TO:<dohoanblue2511@gmail.com>
+
+2025-11-15 21:37:24 - SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-bc36e8a58cfsm7510652a12.10 - gsmtp
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: DATA
+
+2025-11-15 21:37:24 - SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-bc36e8a58cfsm7510652a12.10 - gsmtp
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 21:37:21 +0700
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: To: do hoan <dohoanblue2511@gmail.com>
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Message-ID: <TRzmQWMupBlgW5VOe4z3zpsF7UjAK4wK2BByE6fU@localhost>
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:  boundary="b1=_TRzmQWMupBlgW5VOe4z3zpsF7UjAK4wK2BByE6fU"
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: --b1=_TRzmQWMupBlgW5VOe4z3zpsF7UjAK4wK2BByE6fU
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:             
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 614681
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:             
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:         
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: --b1=_TRzmQWMupBlgW5VOe4z3zpsF7UjAK4wK2BByE6fU
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:24 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:24 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>614681</strong></p>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:             </div>
+
+2025-11-15 21:37:25 - CLIENT -> SERVER:         
+
+2025-11-15 21:37:25 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:25 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:25 - CLIENT -> SERVER: --b1=_TRzmQWMupBlgW5VOe4z3zpsF7UjAK4wK2BByE6fU--
+
+2025-11-15 21:37:25 - CLIENT -> SERVER: 
+
+2025-11-15 21:37:25 - CLIENT -> SERVER: .
+
+2025-11-15 21:37:26 - SERVER -> CLIENT: 250 2.0.0 OK  1763217448 41be03b00d2f7-bc36e8a58cfsm7510652a12.10 - gsmtp
+
+2025-11-15 21:37:26 - CLIENT -> SERVER: QUIT
+
+2025-11-15 21:37:26 - SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-bc36e8a58cfsm7510652a12.10 - gsmtp
+
+2025-11-15 22:46:17 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-3456516cf7esm4401576a91.12 - gsmtp
+
+2025-11-15 22:46:17 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 22:46:18 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 22:46:18 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 22:46:18 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 22:46:18 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 22:46:18 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 22:46:18 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 22:46:18 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 22:46:18 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 22:46:18 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 22:46:18 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 22:46:19 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 22:46:19 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 22:46:19 - SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-3456516cf7esm4401576a91.12 - gsmtp
+
+2025-11-15 22:46:19 - CLIENT -> SERVER: RCPT TO:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 22:46:19 - SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-3456516cf7esm4401576a91.12 - gsmtp
+
+2025-11-15 22:46:19 - CLIENT -> SERVER: DATA
+
+2025-11-15 22:46:20 - SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-3456516cf7esm4401576a91.12 - gsmtp
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 22:46:17 +0700
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: To: do hoan <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Message-ID: <wJgeFArdcFj2MaieIrgRHyQZtXGkP4nf1ZAtu2amZ4@localhost>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:  boundary="b1=_wJgeFArdcFj2MaieIrgRHyQZtXGkP4nf1ZAtu2amZ4"
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: --b1=_wJgeFArdcFj2MaieIrgRHyQZtXGkP4nf1ZAtu2amZ4
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:             
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 792159
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:             
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:         
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: --b1=_wJgeFArdcFj2MaieIrgRHyQZtXGkP4nf1ZAtu2amZ4
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>792159</strong></p>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:             </div>
+
+2025-11-15 22:46:20 - CLIENT -> SERVER:         
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: --b1=_wJgeFArdcFj2MaieIrgRHyQZtXGkP4nf1ZAtu2amZ4--
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: 
+
+2025-11-15 22:46:20 - CLIENT -> SERVER: .
+
+2025-11-15 22:46:21 - SERVER -> CLIENT: 250 2.0.0 OK  1763221583 98e67ed59e1d1-3456516cf7esm4401576a91.12 - gsmtp
+
+2025-11-15 22:46:21 - CLIENT -> SERVER: QUIT
+
+2025-11-15 22:46:21 - SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-3456516cf7esm4401576a91.12 - gsmtp
+
+2025-11-15 23:18:38 - SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2985c2cca66sm89889605ad.99 - gsmtp
+
+2025-11-15 23:18:38 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 23:18:39 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 23:18:39 - CLIENT -> SERVER: STARTTLS
+
+2025-11-15 23:18:39 - SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-11-15 23:18:39 - CLIENT -> SERVER: EHLO localhost
+
+2025-11-15 23:18:39 - SERVER -> CLIENT: 250-smtp.gmail.com at your service, [42.113.79.48]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-11-15 23:18:39 - CLIENT -> SERVER: AUTH LOGIN
+
+2025-11-15 23:18:39 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-11-15 23:18:39 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 23:18:39 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-11-15 23:18:39 - CLIENT -> SERVER: [credentials hidden]
+2025-11-15 23:18:40 - SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: MAIL FROM:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 23:18:40 - SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2985c2cca66sm89889605ad.99 - gsmtp
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: RCPT TO:<dohoanc3ngoctao@gmail.com>
+
+2025-11-15 23:18:40 - SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2985c2cca66sm89889605ad.99 - gsmtp
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: DATA
+
+2025-11-15 23:18:40 - SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2985c2cca66sm89889605ad.99 - gsmtp
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: Date: Sat, 15 Nov 2025 23:18:38 +0700
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: To: do hoan <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: From: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 23:18:40 - CLIENT -> SERVER: Reply-To: GearShop <dohoanc3ngoctao@gmail.com>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Subject: =?UTF-8?B?WMOhYyB0aOG7sWMgZW1haWwgY+G7p2EgYuG6oW4=?=
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Message-ID: <SJ6nwqMRv0lhJbNSGWTv1r6FRMauRdf0hQeH3hdLO4@localhost>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:  boundary="b1=_SJ6nwqMRv0lhJbNSGWTv1r6FRMauRdf0hQeH3hdLO4"
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: --b1=_SJ6nwqMRv0lhJbNSGWTv1r6FRMauRdf0hQeH3hdLO4
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:             
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 Xác thực tài khoản
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 Xin chào do hoan,
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 Mã xác thực của bạn là: 907095
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 Mã có hiệu lực trong vòng 10 phút.
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 Trân trọng,Đội ngũ hỗ trợ
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:             
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:         
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: --b1=_SJ6nwqMRv0lhJbNSGWTv1r6FRMauRdf0hQeH3hdLO4
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 <h2>Xác thực tài khoản</h2>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 <p>Xin chào do hoan,</p>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 <p>Mã xác thực của bạn là: <strong>907095</strong></p>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 <p>Mã có hiệu lực trong vòng 10 phút.</p>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 <p>Nếu bạn không yêu cầu mã này, vui lòng bỏ qua email này.</p>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:                 <p>Trân trọng,<br>Đội ngũ hỗ trợ</p>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:             </div>
+
+2025-11-15 23:18:41 - CLIENT -> SERVER:         
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: --b1=_SJ6nwqMRv0lhJbNSGWTv1r6FRMauRdf0hQeH3hdLO4--
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: 
+
+2025-11-15 23:18:41 - CLIENT -> SERVER: .
+
+2025-11-15 23:18:42 - SERVER -> CLIENT: 250 2.0.0 OK  1763223524 d9443c01a7336-2985c2cca66sm89889605ad.99 - gsmtp
+
+2025-11-15 23:18:42 - CLIENT -> SERVER: QUIT
+
+2025-11-15 23:18:42 - SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2985c2cca66sm89889605ad.99 - gsmtp
+
