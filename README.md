@@ -9,6 +9,8 @@ Website thương mại điện tử chuyên bán bàn phím chất lượng cao 
 
 ---
 
+## ⏱️ Time : 2 weeks
+---
 ## 📋 Mục lục
 
 - [Tổng quan](#-tổng-quan)
@@ -109,8 +111,3 @@ GearShop là một nền tảng thương mại điện tử hiện đại đư�
 
 ## 🚀 Cài đặt
 
-### 1. Clone repository
-
-```bash
-git clone <repository-url>
-cd project-final-1
