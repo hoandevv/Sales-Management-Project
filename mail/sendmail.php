@@ -18,13 +18,13 @@ class Mailer {
             $mail->isSMTP(); // Gửi qua SMTP
             $mail->Host       = 'smtp.gmail.com'; 
             $mail->SMTPAuth   = true; 
-            $mail->Username   = 'dohoanc3ngoctao@gmail.com'; 
+            $mail->Username   = 'abc@gmail.com'; 
             $mail->Password   = 'whqh jsps bhyf vsjc'; 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
             $mail->Port       = 587; 
 
             // Cấu hình người gửi và người nhận
-            $mail->setFrom('dohoanc3ngotao@gmail.com', 'GearShop.com'); 
+            $mail->setFrom('abc@gmail.com', 'GearShop.com'); 
             $mail->addAddress($maildathang, $tenkhachhang); 
 
            
@@ -52,13 +52,13 @@ class Mailer {
             $mail->isSMTP(); // Gửi qua SMTP
             $mail->Host       = 'smtp.gmail.com'; 
             $mail->SMTPAuth   = true; 
-            $mail->Username   = 'dohoanc3ngoctao@gmail.com'; 
+            $mail->Username   = 'abc@gmail.com'; 
             $mail->Password   = 'whqh jsps bhyf vsjc'; 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
             $mail->Port       = 587; 
 
-            $mail->setFrom('dohoanc3ngotao@gmail.com', 'GearShop.com');
-            $mail->addAddress('dohoanc3ngoctao@gmail.com', 'GearShop.com');  
+            $mail->setFrom('abc@gmail.com', 'GearShop.com');
+            $mail->addAddress('abc@gmail.com', 'GearShop.com');  
 
            
             $mail->isHTML(true); 
